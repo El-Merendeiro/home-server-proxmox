@@ -22,13 +22,15 @@ Key purposes include:
 
 ## ⚙️ Main Components
 
-| Component         | Role                            |
-|------------------|---------------------------------|
-| Proxmox VE       | Hypervisor / base OS            |
-| LXC Containers   | Services in isolated containers |
-| Docker           | App-level containerization      |
-| GPU Passthrough  | VM acceleration / Jellyfin HW   |
-| Tailscale / WG   | Secure remote access            |
+| Component           | Role / Description                                |
+|---------------------|--------------------------------------------------|
+| **Proxmox VE**       | Hypervisor and base operating system managing VMs and containers |
+| **LXC Containers**   | Lightweight Linux containers hosting core services (VPN gateway, file management, etc.) |
+| **Docker**           | Container platform for application-level services (Nextcloud, Jellyfin, PhotoPrism) |
+| **GPU Passthrough**  | Direct GPU access assigned to VMs for hardware acceleration (e.g., Jellyfin transcoding) |
+| **Tailscale**        | Secure remote access VPN for personal devices    |
+| **WireGuard VPN LXC**| Dedicated container routing selected network traffic through an external VPN (e.g., torrent traffic) |
+
 
 ---
 
