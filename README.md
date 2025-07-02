@@ -6,12 +6,17 @@ My personal home server built with **Proxmox VE** as the hypervisor, running a m
 
 ## 📚 Overview
 
-This project was built to:
-- Learn real IT skills by doing
-- Manage personal media (Jellyfin, PhotoPrism)
-- Self-host cloud services (Nextcloud)
-- Secure remote access (VPN Gateway LXC)
-- Backup and sync files (RAID1, rsync, and external drives)
+This project started as a personal learning journey into IT infrastructure and home server management.  
+Its goal is to provide a clear, practical guide for beginners who want to set up a home server,  
+while also welcoming feedback and suggestions from more experienced users.
+
+Key purposes include:
+- Gaining hands-on experience with technologies like Proxmox, LXC, Docker, and VPNs
+- Managing personal media with tools such as Jellyfin and PhotoPrism
+- Self-hosting cloud services like Nextcloud
+- Enabling secure remote access for personal devices using **Tailscale**
+- Providing a dedicated **WireGuard VPN container** to route selected network traffic (e.g., torrenting) through a VPN tunnel
+- Implementing backup and synchronization strategies using RAID1, rsync, and external drives
 
 ---
 
