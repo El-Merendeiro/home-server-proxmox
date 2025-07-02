@@ -46,3 +46,19 @@ A concise guide to building and running a personal home server using **Proxmox V
 | **Network**             | Intel Gigabit Ethernet (built-in)                                    |
 | **Audio**               | USB audio adapter (for VM passthrough / guest audio)                 |
 | **Optical Drive**       | SATA CD/DVD drive                                                    |
+
+---
+
+## 🌍 Languages
+
+This project is available in multiple languages:
+
+- 🇬🇧 [English](README.md)
+- 🇮🇹 [Italiano](README.it.md)
+- 🇯🇵 [日本語](README.ja.md)
+
+---
+
+## 🔒 License
+
+MIT License. See [LICENSE](LICENSE) for details.
