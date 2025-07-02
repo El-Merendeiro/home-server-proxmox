@@ -29,3 +29,20 @@ A concise guide to building and running a personal home server using **Proxmox V
 | **GPU Passthrough** | Hardware acceleration for VMs (e.g., Jellyfin)    |
 | **Tailscale**       | Secure remote access for personal devices         |
 | **WireGuard LXC**   | Dedicated VPN routing selected network traffic    |
+
+## 🖥️ Hardware Overview
+
+| Component               | Model / Details                                                      |
+|-------------------------|----------------------------------------------------------------------|
+| **Chassis / System**    | HP EliteDesk 800 G3 SFF (reused small form factor PC)                |
+| **Motherboard**         | Original HP EliteDesk 800 G3 SFF motherboard                         |
+| **Power Supply**        | Original HP EliteDesk 800 G3 SFF PSU                                  |
+| **CPU**                 | Intel Core i5-6500                                                   |
+| **RAM**                 | 40 GB DDR4 (2×8 GB + 2×16 GB modules in 4 DIMM slots)                |
+| **Primary Storage**     | 500 GB NVMe SSD (system)                                             |
+| **Media Storage**       | Seagate IronWolf 2 TB (media library)                                |
+| **Backup Storage**      | WD Blue 4 TB (backup & archives)                                     |
+| **GPU**                 | NVIDIA GeForce GT 1030 (used with passthrough)                       |
+| **Network**             | Intel Gigabit Ethernet (built-in)                                    |
+| **Audio**               | USB audio adapter (for VM passthrough / guest audio)                 |
+| **Optical Drive**       | SATA CD/DVD drive                                                    |
