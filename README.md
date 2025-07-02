@@ -1,4 +1,8 @@
 # 🏠 Home Server with Proxmox
+> ⚠️ **Disclaimer**  
+> This project is still under active development.  
+> Documentation may be incomplete or change frequently.  
+> Feedback and suggestions are welcome!
 
 My personal home server built with **Proxmox VE** as the hypervisor, running a mix of **LXC containers** and **Docker** services, featuring **GPU passthrough** for hardware acceleration, **secure remote access** via **Tailscale** for personal devices, and a dedicated **WireGuard VPN container** that routes all selected network traffic through the VPN tunnel.
 
