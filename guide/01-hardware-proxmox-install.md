@@ -31,3 +31,13 @@ Every part of this build was chosen with **cost-efficiency, long-term reliabilit
 ### 🔗 Full Component List
 
 → For full hardware details, see [the main README](../README.md#️hardware-overview)
+
+### 📥 1.2.1 – Downloading the ISO
+
+Start by downloading the official Proxmox VE ISO image:
+
+🔗 https://www.proxmox.com/en/downloads
+
+On the download page, make sure to select the **Proxmox Virtual Environment** section, then choose the latest stable version of the **Proxmox VE Installer ISO** (e.g., `proxmox-ve_8.x.iso`).
+
+> 💡 Tip: If you're behind a slow connection, use the torrent download for faster and more reliable transfer.
